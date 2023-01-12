@@ -95,7 +95,6 @@ xrot = y + ydiff;
 glutPostRedisplay();
 }
 }
-//Algoritma DDA
 void dda(int i, int j, int a, int k, int l, int b) {
 	int x1, y1, x2, y2, z1, z2;
 	float x,y,dx, dy, steps, x_inc, y_inc;
